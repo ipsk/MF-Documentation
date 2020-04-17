@@ -13,7 +13,7 @@ With this, your parameters are the command's arguments!
 ### **Features** <a id="why-mf"></a>
 
 * Simplifies how you handle your command arguments, instead of having an array with arguments and handling it one by one, simply add what you want to the parameters of your command method.
-* Small, adds only 32KB to your project.
+* Small, adds only 34KB to your project.
 * All messages are customizable.
 * Makes having multiple commands even easier.
 * Custom tab completion handler.
