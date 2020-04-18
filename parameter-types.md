@@ -41,10 +41,11 @@ Currently **MF** supports diverse number of parameter types by default.
 * Player
 * Material
 * Boolean
+* Sound
 * boolean
 * World
 
-_Due to the resolver returning null for invalid entries for easy error handling it is **highly** recommended to use object instead of primitive types when handling numbers as int/double/etc **will give you an error**._
+_Due to the resolver returning null for invalid entries for easy error handling you cannot use primitive types when handling numbers as int/double/etc, it will **will give you an error**._
 
 ### Registering Parameter <a id="registering-parameter"></a>
 

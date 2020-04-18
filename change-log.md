@@ -1,5 +1,13 @@
 # Change Log
 
+#### **v1.4**
+
+* The message handler's send message method is now available in the command classes.
+* Added `onRegister` method to the `CommandBase` where you can use the `setAliases` to register aliases from file without using annotations.
+* Removed unnecessary exceptions.
+* Fixed "lack of enum check" when checking for parameter types.
+* Added Console only type commands, by using `ConsoleCommandSender` as the first parameter.
+
 #### **v1.3**
 
 * Commands can now be registered in the plugin.yml file without causing any problems.
