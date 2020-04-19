@@ -7,7 +7,7 @@ description: This is how you add MF to your project.
 ### Version
 
 Make sure to replace `{version}` with the latest version of **MF**.  
-Latest version: `1.3`
+Latest version: `1.4`
 
 ### Guide
 
