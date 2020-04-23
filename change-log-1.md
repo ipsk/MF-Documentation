@@ -1,5 +1,12 @@
 # Change Log
 
+#### v1.2.3
+
+* Paginated GUI fix.
+* NextPage and PrevPage methods now return a boolean.
+* Get next page number no longer returns -1 if page doesn't exist, instead returns the current page number.
+* Item Glow on ItemBuilder now requires a boolean.
+
 #### v1.1.5
 
 * Added setLore method with List instead of varargs.
