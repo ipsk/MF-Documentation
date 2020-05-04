@@ -1,5 +1,11 @@
 # Change Log
 
+#### v1.2.5
+
+* Update item \(ItemStack\) now applies NBT like it used to.
+* Changed paginated GUI to no longer need to reopen on page change \(should boost performance slightly\).
+* Added null validation for the GUI Items.
+
 #### v1.2.4
 
 * Paginated GUI fix.
