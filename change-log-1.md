@@ -1,5 +1,10 @@
 # Change Log
 
+#### v1.2.7
+
+* Update page item \(ItemStack\) now applies NBT like it should.
+* Page size is no longer required, it'll be dynamically adjusted based on the empty spaces of the inventory.
+
 #### v1.2.6
 
 * Update item \(ItemStack\) now applies NBT like it used to.
