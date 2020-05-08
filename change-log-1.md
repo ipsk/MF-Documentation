@@ -1,5 +1,9 @@
 # Change Log
 
+#### v1.2.8
+
+* Added `setNbt` to the item builder.
+
 #### v1.2.7
 
 * Update page item \(ItemStack\) now applies NBT like it should.
