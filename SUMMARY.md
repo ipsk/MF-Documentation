@@ -2,25 +2,27 @@
 
 * [Introduction](README.md)
 
-## MF
+## Commands <a id="mf"></a>
 
-* [Setup](setup/README.md)
-  * [Maven](setup/maven.md)
-  * [Gradle](setup/gradle.md)
-* [Getting started](getting-started.md)
-* [Annotations](annotations.md)
-* [Parameter Types](parameter-types.md)
-* [Tab Completion](tab-completion.md)
-* [Messages](messages.md)
-* [Change Log](change-log.md)
+* [MF](mf/mf-1/README.md)
+  * [Getting started](mf/mf-1/getting-started.md)
+  * [Setup](mf/mf-1/setup/README.md)
+    * [Maven](mf/mf-1/setup/maven.md)
+    * [Gradle](mf/mf-1/setup/gradle.md)
+  * [Annotations](mf/mf-1/annotations.md)
+  * [Parameter Types](mf/mf-1/parameter-types.md)
+  * [Tab Completion](mf/mf-1/tab-completion.md)
+  * [Messages](mf/mf-1/messages.md)
+  * [Change Log](mf/mf-1/change-log.md)
 
-## MF-GUI
+## GUI <a id="mf-gui"></a>
 
-* [GUI](gui.md)
-* [Setup](setup-1/README.md)
-  * [Maven](setup-1/maven.md)
-  * [Gradle](setup-1/gradle.md)
-* [Creating a GUI](creating-a-gui.md)
-* [GUI Features](gui-features.md)
-* [Change Log](change-log-1.md)
+* [MF-GUI](mf-gui/gui/README.md)
+  * [Setup](mf-gui/gui/setup-1.md)
+  * [GUI](mf-gui/gui/gui.md)
+  * [Persistent GUI](mf-gui/gui/persistent-gui.md)
+  * [Paginated GUI](mf-gui/gui/paginated-gui.md)
+  * [Scrolling GUI](mf-gui/gui/scrolling-gui.md)
+  * [GUI Features](mf-gui/gui/gui-features.md)
+  * [Change Log](mf-gui/gui/change-log-1.md)
 

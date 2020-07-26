@@ -6,9 +6,15 @@ description: Welcome to the guide for Matt's Framework.
 
 ![Matt&apos;s Framework \(MF\)](.gitbook/assets/mfthread.png)
 
-**MF** is a command annotation framework for Spigot plugins based on [ACF](https://github.com/aikar/commands/).  
-This framework is meant to be simpler to use and more customizable.  
-With this, your parameters are the command's arguments!
+**MF** used to be just a command framework for Spigot plugins based on [ACF](https://github.com/aikar/commands/), since then it has been expanded to have a GUI lib and more to come soon.  
+
+
+### Libs
+
+* [**MF**](mf/mf-1/) - _Command framework_
+* \*\*\*\*[**MF-GUI**](mf-gui/gui/) - _GUI library_
+
+For more information or help you can join my [**Discord**](https://mattstudios.me/discord)!
 
 ### **Features** <a id="why-mf"></a>
 
@@ -27,7 +33,7 @@ The source code can be found [**here**](https://github.com/ipsk/MattFramework).
 
 ### GUI
 
-**MF** also has an additional lib to make easier **GUI**'s in Spigot, you can read more about it [**here**](gui.md).
+**MF** also has an additional lib to make easier **GUI**'s in Spigot, you can read more about it [**here**](mf-gui/gui/).
 
 ### Other
 
