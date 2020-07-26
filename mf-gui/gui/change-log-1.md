@@ -15,6 +15,7 @@
 * Added Material constructor to GuiItem.
 * Fixed filler not being able to fill top and bottom correctly and not being able to use multiple filling at the same time.
 * GUI will no longer open if the player is asleep, due to it not triggering the `InventoryClickEvent`.
+* PaginatedGUI's `nextPage` and `prevPage` have been replaced with `next` and `previous`.
 
 #### v1.2.8
 
