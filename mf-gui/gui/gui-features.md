@@ -56,7 +56,7 @@ gui.setOpenGuiAction(event -> {
 
 ### Slot actions
 
-If you want to add a click action to a specif slot without needing to have to specify the item in the slot, you can simple use the `setSotAction`.  
+If you want to add a click action to a specif slot without needing to have to specify the item in the slot, you can simple use the `setSlotAction`.  
 It also supports both rows and columns and slots.
 
 ```java
