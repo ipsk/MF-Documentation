@@ -1,6 +1,6 @@
 # Change Log
 
-#### v2.0.1
+#### v2.0.2
 
 * GUIs no longer require a plugin instance.
 * Item NBT now caches reflection, should improve performance.
