@@ -7,7 +7,7 @@ description: This is how you add MF-MSG to your project.
 ### Version
 
 Make sure to replace `{version}` with the latest version of **MF-MSG**.  
-Latest version: `1.0`
+Latest version: `1.1`
 
 {% tabs %}
 {% tab title="Gradle" %}
