@@ -32,4 +32,5 @@
   * [Setup](message/mf-msg/setup.md)
   * [Getting started](message/mf-msg/getting-started.md)
   * [Syntax](message/mf-msg/syntax.md)
+  * [Formats](message/mf-msg/formats.md)
 
