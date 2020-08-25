@@ -21,5 +21,5 @@ Contributors can be found [**here**](https://github.com/ipsk/MF-MSG/graphs/contr
 Feel free to PR any changes you'd like to see in it!  
 The source code can be found [**here**](https://github.com/ipsk/MF-MSG).
 
-A special thanks to the ones who helped me make this lib: [Yugi ](https://github.com/Vshnv)for the help in the beginning, [Sxtanna](https://github.com/Sxtanna) for the markdown parser help, and [Nicole](https://github.com/marketplace) for the lovely colors!
+A special thanks to the ones who helped me make this lib: [Yugi ](https://github.com/Vshnv)for the help in the beginning, [Sxtanna](https://github.com/Sxtanna) for the markdown parser help, and [Nicole](https://github.com/Esophose) for the lovely colors!
 
