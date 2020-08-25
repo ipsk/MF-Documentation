@@ -39,6 +39,10 @@ The syntax for actions are simple, the text that'll be displayed goes in the `[ 
 * Clipboard - Copies the text to clipboard when clicked`[**Message**](clipboard: This will be copied)`
 * **Url** -  Opens a URL link when clicked`[**Message**](url: https://mf.mattstudios.me/)`
 
+{% hint style="info" %}
+To have an action with both hover and a click event use the separator `|`, which can also be escaped like `\|`.
+{% endhint %}
+
 {% hint style="warning" %}
 **Limitations**
 
