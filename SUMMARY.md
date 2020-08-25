@@ -26,3 +26,10 @@
   * [GUI Features](mf-gui/gui/gui-features.md)
   * [Change Log](mf-gui/gui/change-log-1.md)
 
+## MESSAGE
+
+* [MF-MSG](message/mf-msg/README.md)
+  * [Setup](message/mf-msg/setup.md)
+  * [Getting started](message/mf-msg/getting-started.md)
+  * [Syntax](message/mf-msg/syntax.md)
+
