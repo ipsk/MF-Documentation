@@ -10,7 +10,9 @@ description: Markdown messages for Bukkit
 
 This is a library that allows you to parse simple Markdown messages \(based on Discord's\) into a JSON message or string.
 
+{% hint style="info" %}
 The lib works from 1.8 till 1.16. Gradients and rainbows won't work on versions prior to 1.16, however hex colors will be converted to the closes legacy version.
+{% endhint %}
 
 ### **Contributing** <a id="contributing"></a>
 
