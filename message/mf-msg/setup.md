@@ -30,7 +30,7 @@ dependencies {
 apply plugin: 'com.github.johnrengelman.shadow'
 
 shadowJar {
-   relocate 'me.mattstudios.mfmsg', '[YOU PACKAGE].mfmsg'
+   relocate 'me.mattstudios.mfmsg', '[YOUR PACKAGE].mfmsg'
 }
 ```
 {% endtab %}
