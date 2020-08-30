@@ -4,7 +4,7 @@ description: This is how you add MF-MSG to your project.
 
 # Setup
 
-### Version
+## Version
 
 Make sure to replace `{version}` with the latest version of **MF-MSG**.  
 Latest version: `1.1`
@@ -23,8 +23,8 @@ dependencies {
 }
 ```
 
- In order to include the lib in your project, you need to add `shadowJar` plugin `build.gradle`.  
- Replace `[YOUR PACKAGE]`with your plugin's package, for example `me.myplugin.plugin`.
+In order to include the lib in your project, you need to add `shadowJar` plugin `build.gradle`.  
+Replace `[YOUR PACKAGE]`with your plugin's package, for example `me.myplugin.plugin`.
 
 ```groovy
 apply plugin: 'com.github.johnrengelman.shadow'
@@ -46,8 +46,8 @@ You need to add the dependency to your `pom.xml`.
 </dependency>
 ```
 
- In order to include the framework in your project, you need to add the following to your `pom.xml`, in the plugins section.  
- Replace `[YOUR PACKAGE]`with your plugin's package, for example `me.myplugin.plugin`.
+In order to include the framework in your project, you need to add the following to your `pom.xml`, in the plugins section.  
+Replace `[YOUR PACKAGE]`with your plugin's package, for example `me.myplugin.plugin`.
 
 ```markup
 <plugin>
@@ -58,7 +58,7 @@ You need to add the dependency to your `pom.xml`.
         <relocations>
             <relocation>
                 <pattern>me.mattstudios.mfmsg</pattern>
-                <shadedPattern>[YOU PACKAGE].mfmsg</shadedPattern> <!-- Replace package here here -->
+                <shadedPattern>[YOUR PACKAGE].mfmsg</shadedPattern> <!-- Replace package here here -->
             </relocation>
         </relocations>
     </configuration>

@@ -30,7 +30,7 @@ dependencies {
 apply plugin: 'com.github.johnrengelman.shadow'
 
 shadowJar {
-   relocate 'me.mattstudios.mfgui', '[YOU PACKAGE].mfgui'
+   relocate 'me.mattstudios.mfgui', '[YOUR PACKAGE].mfgui'
 }
 ```
 
@@ -58,7 +58,7 @@ You need to add the dependency to your `pom.xml`.
         <relocations>
             <relocation>
                 <pattern>me.mattstudios.mfgui</pattern>
-                <shadedPattern>[YOU PACKAGE].mfgui</shadedPattern> <!-- Replace package here here -->
+                <shadedPattern>[YOUR PACKAGE].mfgui</shadedPattern> <!-- Replace package here here -->
             </relocation>
         </relocations>
     </configuration>
