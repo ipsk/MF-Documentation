@@ -1,13 +1,10 @@
----
-description: This is how you add MF-MSG to your project.
----
+# Adventure
 
-# Setup
+{% hint style="info" %}
+I recommend using adventure over the bukkit version of this lib.
+{% endhint %}
 
-## Version
-
-Make sure to replace `{version}` with the latest version of **MF-MSG**.  
-Latest version: `2.0.0`
+MF-MSG now supports [**Kyori's Adventure**](https://github.com/KyoriPowered/adventure). Which allows you to use the lib on many other platforms and has all the benefits of using Adventure.
 
 {% tabs %}
 {% tab title="Gradle" %}
@@ -19,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation "me.mattstudios:mf-msg-bukkit:{version}" // Replace version here 
+    implementation "me.mattstudios:mf-msg-adventure:{version}" // Replace version here 
 }
 ```
 
@@ -41,7 +38,7 @@ You need to add the dependency to your `pom.xml`.
 ```markup
 <dependency>
   <groupId>me.mattstudios</groupId>
-  <artifactId>mf-message-bukkit</artifactId>
+  <artifactId>mf-message-adventure</artifactId>
   <version>{version}</version> <!-- replace version here -->
 </dependency>
 ```
@@ -74,4 +71,14 @@ Replace `[YOUR PACKAGE]`with your plugin's package, for example `me.myplugin.plu
 ```
 {% endtab %}
 {% endtabs %}
+
+### Using it
+
+Everything is the same as the bukkit version of the lib. Only change is that instead of `BukkitMessage`, it's `AdventureMessage`.
+
+```java
+final AdventureMessage message = AdventureMessage.create();
+```
+
+
 

@@ -2,48 +2,48 @@
 
 ### Message
 
-To get started first you need to create a `Message`.
+To get started first you need to create a `BukkitMessage`.
 
 ```java
-final Message message = Message.create();
+final BukkitMessage = BukkitMessage.create();
 ```
 
 This will be the base of every message you parse.
 
-### Format Options
+### Message Options
 
-You can also specify some Format options to he message creator, this allows you to control how the message will be parsed.
+You can also specify some message options to he message creator, this allows you to control how the message will be parsed.
 
-The base of the format options is the `FormatOptions` builder:
-
-```java
-FormatOptions.builder();
-```
-
-With it you can disable some formats:
+The base of the message options is the `MessageOptions` builder:
 
 ```java
-final FormatOptions formatOptions = FormatOptions.builder().without(Format.BOLD);
+MessageOptions.builder();
 ```
 
-In this example BOLD format will be disabled, it'll not parse the bold portion of the message.
+With it you can remove some formats:
+
+```java
+final MessageOptions messageOptions = MessageOptions.builder().removeFormat(Format.BOLD).build();
+```
+
+In this example BOLD format will be remove, it'll not parse the bold portion of the message.
 
 You can also set a default color to be used in the messages:
 
 ```java
-final FormatOptions formatOptions = FormatOptions.builder().defaultColor(new FlatColor("#38ef7d"));
+final MessageOptions messageOptions = MessageOptions.builder().setDefaultColor(new FlatColor("#38ef7d")).build();
 ```
 
 Available color types are
 
 * **FlatColor** - Takes in a String with a color, can be hex or just the name, for example: `FlatColor("red");`
-* **Gradient** - Takes in two `Color` objects.
-* **Rainbow** - Takes two values, a saturation level and a brightness level.
+* **GradientColor** - Takes in a List of `Color` objects.
+* **RainbowColor** - Takes two values, a saturation level and a brightness level.
 
 Finally you can pass the format options to the message creator:
 
 ```java
-final Message message = Message.create(formatOptions);
+final BukkitMessage message = Message.create(messageOptions);
 ```
 
 ### Parsing

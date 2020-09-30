@@ -11,11 +11,17 @@ You can escape any format by adding `\` before it!
 | ~~Strikethrough~~ | ~~Strikethrough~~ | - |
 | Underlined | \_\_Underlined\_\_ | - |
 | Obfuscated | \|\|Obfuscated\|\| | - |
-| Legacy Color | &cColor! | - |
-| HexColor | &lt;\#000000&gt;Hex! | &\#000000Hex! |
-| Gradient | &lt;g:\#000:\#ffffff&gt;Gradient! | &lt;gradient:\#000:\#ffffff&gt;Gradient! |
-| Rainbow | &lt;r:0.5:1.0&gt;Rainbow! | &lt;rainbow:0.5:1.0&gt;Rainbow! |
+| Legacy color | &cColor! | - |
+| Hex | &lt;\#000000&gt;Hex! | &\#000000Hex! |
+| Gradient | &lt;g:\#000:\#ffffff&gt;Gradient! | - |
+| Rainbow | &lt;r:0.5:1.0&gt;Rainbow! | - |
 | Action | \[Text!\]\(hover: Hover Message!\) | - |
+| Legacy format | &lBold |  |
+| Line break | \n |  |
+
+{% hint style="warning" %}
+When using line break on the IDE make sure to escape it `\\n` or it won't work.
+{% endhint %}
 
 ### Examples
 
@@ -41,14 +47,6 @@ The syntax for actions are simple, the text that'll be displayed goes in the `[ 
 
 {% hint style="info" %}
 To have an action with both hover and a click event use the separator `|`, which can also be escaped like `\|`.
-{% endhint %}
-
-{% hint style="warning" %}
-**Limitations**
-
-Currently due to some limitations the markdown syntax won't pass through actions, for example: `**Message [action](hove: Test) more message**` will result in displaying the full message: `**Message action more message**` without parsing.
-
-Colors will pass through correctly though.
 {% endhint %}
 
 
