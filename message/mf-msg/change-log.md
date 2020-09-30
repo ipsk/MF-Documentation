@@ -1,6 +1,6 @@
 # Change Log
 
-**v2.0.0**
+**v2.0.1**
 
 * Reworked the entire parser to use common mark for the additions like colors, instead of regex, which results in a good performance boost, plus removes the previous limitations.
 * Colors and formats will carry through different nodes and even lines.
