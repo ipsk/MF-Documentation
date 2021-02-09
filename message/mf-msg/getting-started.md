@@ -5,7 +5,7 @@
 To get started first you need to create a `BukkitMessage`.
 
 ```java
-final BukkitMessage = BukkitMessage.create();
+final BukkitMessage message = BukkitMessage.create();
 ```
 
 This will be the base of every message you parse.
