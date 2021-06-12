@@ -11,7 +11,8 @@ When using Adventure and using Paper \(1.16.5+\) you do not need to add anything
 You can also use plain Strings to work on Spigot and old versions, but it's not recommended, so it has been deprecated.
 {% endhint %}
 
-**GUI Builders**: Added a convenient way to create GUIs using the builders, it also comes with a few action limiting options, like disabling all clicks, disabling drag, disabling item moving from one inventory to the other, etc. For more check the specific GUI page as it has been updated.
+**GUI Builders**: Added a convenient way to create GUIs using the builders, it also comes with a few action limiting options, like disabling all clicks, disabling drag, disabling item moving from one inventory to the other, etc. For more check the specific GUI page as it has been updated.  
+You can now also disable certain actions by default, like `disableAllInteractions`, `disableItemPlace`, `disableItemSwap`, and `disableItemTake` \(Big thanks to [SecretX](https://github.com/SecretX33) for this\).
 
 **Item Builder**: The item builder has changed to be divided by function, the current `ItemBuilder.of()` will provide all the basic functionalities needed for a common item, for Skulls you can now do `ItemBuilder.skull()` this has all the skull related methods that used to be present in the old \`ItemBuilder\` so make sure to change this in your code. More builders for different purposes to come!  
 Many methods in the `ItemBuilder` have been renamed, for example `setName` became just `name`, etc.
