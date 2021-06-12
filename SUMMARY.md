@@ -15,16 +15,17 @@
   * [Messages](mf/mf-1/messages.md)
   * [Change Log](mf/mf-1/change-log.md)
 
-## GUI <a id="mf-gui"></a>
+## GUI <a id="triumph-gui"></a>
 
-* [MF-GUI](mf-gui/gui/README.md)
-  * [Setup](mf-gui/gui/setup-1.md)
-  * [GUI](mf-gui/gui/gui.md)
-  * [Persistent GUI](mf-gui/gui/persistent-gui.md)
-  * [Paginated GUI](mf-gui/gui/paginated-gui.md)
-  * [Scrolling GUI](mf-gui/gui/scrolling-gui.md)
-  * [GUI Features](mf-gui/gui/gui-features.md)
-  * [Change Log](mf-gui/gui/change-log-1.md)
+* [Triumph GUI](triumph-gui/introduction.md)
+* [Updating to 3.0.0](triumph-gui/updating-to-3-0-0.md)
+* [Setup](triumph-gui/setup-1.md)
+* [Types](triumph-gui/types/README.md)
+  * [GUI](triumph-gui/types/gui.md)
+  * [Paginated GUI](triumph-gui/types/paginated-gui.md)
+  * [Scrolling GUI](triumph-gui/types/scrolling-gui.md)
+  * [Storage GUI](triumph-gui/types/storage-gui.md)
+* [GUI Features](triumph-gui/gui-features.md)
 
 ## MESSAGE
 

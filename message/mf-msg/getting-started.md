@@ -1,6 +1,6 @@
 # Getting started
 
-### Message
+## Message
 
 To get started first you need to create a `BukkitMessage`.
 
@@ -10,7 +10,7 @@ final BukkitMessage message = BukkitMessage.create();
 
 This will be the base of every message you parse.
 
-### Message Options
+## Message Options
 
 You can also specify some message options to he message creator, this allows you to control how the message will be parsed.
 
@@ -46,7 +46,7 @@ Finally you can pass the format options to the message creator:
 final BukkitMessage message = Message.create(messageOptions);
 ```
 
-### Parsing
+## Parsing
 
 Finally all it's left is parsing the message:
 

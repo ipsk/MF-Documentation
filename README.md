@@ -11,7 +11,7 @@ description: Welcome to the guide for Matt's Framework.
 ### Libs
 
 * [**MF**](mf/mf-1/) - _Command framework_
-* \*\*\*\*[**MF-GUI**](mf-gui/gui/) - _GUI lib_
+* \*\*\*\*[**MF-GUI**](triumph-gui/introduction.md) - _GUI lib_
 * \*\*\*\*[**MF-MSG**](message/mf-msg/) _- Markdown message lib_
 
 For more information or help you can join my [**Discord**](https://mattstudios.me/discord)!
