@@ -1,7 +1,6 @@
 # Updating to 3.0.0
 
-I've been long wanting to rename my libs as I didn't like the previous name. With this update this lib will finally be renamed to `triumph-gui`, others will be done shortly too as I finish some rewrites.  
-Due to the name change and also some much needed organization, some packages had to be renamed/moved, which means you'll have to reimport a few things.
+ For a long time now, I've been wanting to rename my libs, as I didn't like the previous name. With this update, this lib will finally be renamed to `triumph-gui`, and others will be edited shortly after I complete their rewrites. Due to the name change and much-needed reorganization, some packages had to be renamed and/or moved. This means that users will have to reimport a few things.
 
 \*\*\*\*[**Adventure**](https://github.com/KyoriPowered/adventure): A much needed update. Every `GUI` and `ItemBuilder` now supports using `Components` for title/name.
 
