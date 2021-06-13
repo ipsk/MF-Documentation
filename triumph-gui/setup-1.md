@@ -7,7 +7,7 @@ description: This is how you add the lib to your project.
 ### Version
 
 Make sure to replace `{version}` with the latest version.  
-Latest version: `3.0.0`
+Latest version: `3.0.1`
 
 {% tabs %}
 {% tab title="Gradle" %}

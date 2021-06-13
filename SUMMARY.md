@@ -18,7 +18,7 @@
 ## GUI <a id="triumph-gui"></a>
 
 * [Triumph GUI](triumph-gui/introduction.md)
-* [Updating to 3.0.0](triumph-gui/updating-to-3-0-0.md)
+* [Updating to 3.x.x](triumph-gui/updating-to-3-x-x.md)
 * [Setup](triumph-gui/setup-1.md)
 * [Types](triumph-gui/types/README.md)
   * [GUI](triumph-gui/types/gui.md)

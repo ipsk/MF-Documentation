@@ -1,4 +1,4 @@
-# Updating to 3.0.0
+# Updating to 3.x.x
 
  For a long time now, I've been wanting to rename my libs, as I didn't like the previous name. With this update, this lib will finally be renamed to `triumph-gui`, and others will be edited shortly after I complete their rewrites. Due to the name change and much-needed reorganization, some packages had to be renamed and/or moved. This means that users will have to reimport a few things.
 
