@@ -6,8 +6,9 @@ description: This is how you add the lib to your project.
 
 ### Version
 
-Make sure to replace `{version}` with the latest version.  
-Latest version: `3.0.1`
+Make sure to replace `{version}` with the latest version.
+
+![Latest version](https://img.shields.io/github/v/release/TriumphTeam/triumph-gui?color=green&style=flat-square)
 
 {% tabs %}
 {% tab title="Gradle" %}
